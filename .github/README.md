@@ -1,5 +1,5 @@
 # BG Queue Checker
-This module just simply checks that every party member has the same faction before joining BG queue.
+This module just simply checks that every party member has the same faction before joining BG queue. I (outtieTV) modified this slightly to work with azerothcore-wotlk-playerbots.
 
 ## Setup
 - `Clone` this module into your `./azerothcore-wotlk/modules` directory.
