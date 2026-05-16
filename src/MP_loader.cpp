@@ -1,15 +1,12 @@
 /*
- * Copyright (C) 2016+ AzerothCore <www.azerothcore.org>, released under GNU AGPL v3 license: https://github.com/azerothcore/azerothcore-wotlk/blob/master/LICENSE-AGPL3
+ * Copyright (C) 2016+ AzerothCore <www.azerothcore.org>, released under GNU AGPL v3 license: github.com/azerothcore/azerothcore-wotlk/blob/master/LICENSE-AGPL3
  */
 
-// From SC
-void SC_AddBGQueueCheckerScripts();
+// Forward declaration of the actual function in BGQueueChecker.cpp
+void AddSC_BGQueueChecker();
 
-// Add all
-// cf. the naming convention https://github.com/azerothcore/azerothcore-wotlk/blob/master/doc/changelog/master.md#how-to-upgrade-4
-// additionally replace all '-' in the module folder name with '_' here
+// This is the wrapper function AzerothCore's build system looks for
 void AddBGQueueCheckerScripts()
 {
-    SC_AddBGQueueCheckerScripts();
+    AddSC_BGQueueChecker();
 }
-
